@@ -1,3 +1,7 @@
+/*let Quiz = require('./quiz');
+
+exports.Quiz = Quiz;
+
 const Sequelize = require('sequelize');
 
 const options = {logging: false};
@@ -33,4 +37,8 @@ sequelize.sync()
     console.log(error);
 });
 
-module.exports = sequelize;
+module.exports = sequelize;*/
+
+var quiz = require('./quiz');
+
+exports.quiz = quiz;
